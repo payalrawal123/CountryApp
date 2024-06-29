@@ -1,0 +1,36 @@
+.favorites-container {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .favorite-card {
+    background-color: #cc4040;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.33% - 20px); /* Adjust width as needed for responsive design */
+    margin-bottom: 20px;
+  }
+  
+  .favorite-card h3 {
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .favorite-card p {
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .flag-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
